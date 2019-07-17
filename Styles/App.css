@@ -1,10 +1,8 @@
 body {
-  /* background-image: url('Space_Back.jpg'); */
-   background-color: black;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: black;
   flex-direction: row;
+  height: 100%;
 }
 
 .dotCont {
@@ -17,8 +15,8 @@ body {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 26px;
-  width: 26px;
+  height: 32px;
+  width: 32px;
   margin: 0 2px;
   position: relative;
   bottom: 0px;
@@ -34,8 +32,8 @@ body {
 
 .active,
 .dot:hover {
-  height: 44px;
-  width: 44px;
+  height: 50px;
+  width: 50px;
 }
 
 .container {
@@ -47,27 +45,150 @@ body {
 #Sun {
   background-image: url('Solary System/Sun/Sun_Planet.png');
 }
+.TheSun {
+  position: absolute;
+  left: -26%;
+  top: 5%;
+}
+.TheSunImg {
+  height: 750px;
+  width: 637px;
+}
 #Mercury {
   background-image: url('Solary System/Mercury/Mercury_Planet.png');
+}
+.TheMercury {
+  position: absolute;
+  left: 16%;
+  top: 51%;
+}
+.TheMercuryText {
+  position: absolute;
+  left: 15.7%;
+  text-align: center;
+  top: 35%;
+}
+.TheMercuryImg {
+  height: 60px;
+  width: 60px;
 }
 #Venus {
   background-image: url('Solary System/Venus/Venus_Planet.png');
 }
+.TheVenus {
+  position: absolute;
+  left: 21%;
+  top: 47%;
+}
+.TheVenusText {
+  position: absolute;
+  left: 24%;
+  top: 35%;
+}
+.TheVenusImg {
+  height: 120px;
+  width: 120px;
+}
 #Earth {
   background-image: url('Solary System/Earth/Earth_Planet.png');
+}
+.TheEarth {
+  position: absolute;
+  left: 30%;
+  top: 47%;
+}
+.TheEarthText {
+  position: absolute;
+  left: 32%;
+  top: 35%;
+}
+.TheEarthImg {
+  height: 120px;
+  width: 120px;
 }
 #Mars {
   background-image: url('Solary System/Mars/Mars_Planet.png');
 }
+.TheMars {
+  position: absolute;
+  left: 39%;
+  top: 51%;
+}
+.TheMarsText {
+  position: absolute;
+  left: 39.5%;
+  top: 35%;
+}
+.TheMarsImg {
+  height: 60px;
+  width: 60px;
+}
 #Jupiter {
   background-image: url('Solary System/Jupiter/Jupiter_Planet.png');
+}
+.TheJupiter {
+  position: absolute;
+  left: 45%;
+  top: 42%;
+}
+.TheJupiterText {
+  position: absolute;
+  left: 49.5%;
+  top: 35%;
+}
+.TheJupiterImg {
+  height: 200px;
+  width: 200px;
 }
 #Saturn {
   background-image: url('Solary System/Saturn/Saturn_Planet.png');
 }
+.TheSaturn {
+  position: absolute;
+  left: 57%;
+  top: 40%;
+}
+.TheSaturnText{
+  position: absolute;
+  left: 67%;
+  top: 35%;
+}
+.TheSaturnImg {
+  height: 220px;
+  width: 380px;
+}
 #Uranus {
   background-image: url('Solary System/Uranus/Uranus_Planet.png');
+}
+.TheUranus {
+  position: absolute;
+  left: 82%;
+  top: 49%;
+}
+.TheUranusText{
+  position: absolute;
+  left: 83.3%;
+  top: 35%;
+}
+.TheUranusImg {
+  height: 100px;
+  width: 100px;
 }
 #Neptune {
   background-image: url('Solary System/Neptune/Neptune_Planet.png');
 }
+.TheNeptune {
+  position: absolute;
+  left: 90%;
+  top: 50%;
+}
+.TheNeptuneText{
+  position: absolute;
+  left: 90%;
+  top: 35%;
+}
+.TheNeptuneImg {
+  height: 90px;
+  width: 90px;
+}
+
