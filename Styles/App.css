@@ -1,0 +1,73 @@
+body {
+  /* background-image: url('Space_Back.jpg'); */
+   background-color: black;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  height: 100%;
+  flex-direction: row;
+}
+
+.dotCont {
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  bottom: 0px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 26px;
+  width: 26px;
+  margin: 0 2px;
+  position: relative;
+  bottom: 0px;
+  background-color: transparent;
+  background-position: top center;
+  background-size: contain;
+  background-repeat: repeat-x;
+  border-radius: 50%;
+  z-index: 1;
+  display: inline-block;
+  transition: height 0.1s ease-out;
+}
+
+.active,
+.dot:hover {
+  height: 44px;
+  width: 44px;
+}
+
+.container {
+  width: 100%;
+  display: block;
+  max-height: 1000px;
+}
+
+#Sun {
+  background-image: url('Solary System/Sun/Sun_Planet.png');
+}
+#Mercury {
+  background-image: url('Solary System/Mercury/Mercury_Planet.png');
+}
+#Venus {
+  background-image: url('Solary System/Venus/Venus_Planet.png');
+}
+#Earth {
+  background-image: url('Solary System/Earth/Earth_Planet.png');
+}
+#Mars {
+  background-image: url('Solary System/Mars/Mars_Planet.png');
+}
+#Jupiter {
+  background-image: url('Solary System/Jupiter/Jupiter_Planet.png');
+}
+#Saturn {
+  background-image: url('Solary System/Saturn/Saturn_Planet.png');
+}
+#Uranus {
+  background-image: url('Solary System/Uranus/Uranus_Planet.png');
+}
+#Neptune {
+  background-image: url('Solary System/Neptune/Neptune_Planet.png');
+}
